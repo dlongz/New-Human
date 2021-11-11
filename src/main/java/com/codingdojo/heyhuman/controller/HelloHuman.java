@@ -23,12 +23,3 @@ public class HelloHuman {
 		return String.format("Hello %s %s", name, lname);
 	}
 }
-// Answer. Different from mines. interesting
-//@Controller
-//public class HomeController {
-//	@RequestMapping("/")
-//	public String index(Model model, @RequestParam(value="name", required=false, defaultValue="Human") String name) {
-//		model.addAttribute("name", name);
-//		return "index.jsp";
-//	}
-//}
